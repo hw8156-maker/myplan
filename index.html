@@ -24,3 +24,51 @@
     <p>위와 같은 목표를 <br> 꾸준히 실천해 나가겠습니다!</p>
 </body>
 </html>
+
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>나의 첫 GitHub Pages</title>
+  <meta name="description" content="과제용 개인 웹페이지 - 이미지와 링크 포함" />
+  <style>
+    :root{--bg:#0b0e14;--text:#eaeaea;--muted:#b3b3b3;--card:#111520;--accent:#6ee7b7}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Apple SD Gothic Neo,Malgun Gothic,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#0b0e14 0%,#141a2a 100%);color:var(--text);line-height:1.6}
+    .container{max-width:860px;margin:40px auto;padding:24px}
+    .card{background:var(--card);border-radius:16px;padding:24px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    h1{margin-top:0;font-size:2rem}
+    figure{margin:0}
+    img{width:100%;height:auto;border-radius:12px;display:block}
+    .caption{font-size:.95rem;color:var(--muted);margin-top:8px}
+    a{color:var(--accent);text-decoration:none;border-bottom:1px dashed rgba(110,231,183,.4)}
+    a:hover{border-bottom-color:transparent}
+    .footer{margin-top:24px;font-size:.9rem;color:var(--muted)}
+    .badge{display:inline-block;padding:4px 10px;border-radius:999px;background:#1d2438;font-size:.75rem;margin-bottom:12px}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <span class="badge">과제 0908</span>
+      <h1>안녕하세요, 제 웹페이지입니다 👋</h1>
+      <p>아래 이미지는 제가 관심 있는 주제와 관련된 사진입니다. 이미지는 공개 이미지를 사용했고, 자세한 내용은 링크에서 더 볼 수 있어요.</p>
+
+      <!-- 이미지 요소: 과제 요건 1 -->
+      <figure>
+        <img src="https://picsum.photos/id/1050/1200/700" alt="도시 속 친환경 느낌의 사진" />
+        <figcaption class="caption">샘플 이미지 — 과제 요건을 위한 예시입니다.</figcaption>
+      </figure>
+
+      <!-- 하이퍼링크 요소: 과제 요건 2 -->
+      <p style="margin-top:16px">
+        🔗 더 알아보기:
+        <a href="https://developer.mozilla.org/ko/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML" target="_blank" rel="noopener">HTML에서 이미지 쓰는 법(MDN)</a>
+      </p>
+
+      <div class="footer">본 페이지는 GitHub Pages에서 호스팅됩니다.</div>
+    </div>
+  </main>
+</body>
+</html>
